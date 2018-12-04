@@ -21,10 +21,15 @@ YOLO에서 특정% 이상의 화재인식 시 서버로 '화재인식메세지'�
 
 Added Data files
 
-<.cfg 파일 수정> 
+#.cfg 파일 수정
+
 resolution 차이를 위한 처리
-height, width 수정 
+
+height, width 수정
+
 Dataset anchors recalculation
+
 subdivision = 16 -> 32 수정
+
 learning rate 수정
 
