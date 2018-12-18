@@ -35,3 +35,11 @@ subdivision = 16 -> 32 수정
 
 learning rate 수정
 
+--------------------------------------------------------
+
+# 모바일 환경을 위한 Jetson TX2
+Opencv 3.3.1 -> 3.4.0으로 업글
+
+GPU 파워로 (Server(3584 CUDA cores) -> TX2 (254 CUDA cores))Yolov3(3~5FPS)에서 Yolov3-tiny(35~37FPS)로 수정 
+Yolov3 (109 Layers)
+Yolov3-tiny(23 Layers)
